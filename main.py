@@ -1,5 +1,5 @@
 import random
-
+from art import logo
 def deal_card():
     """This function returns a random card to the list"""
     cards = [11,2,3,4,5,6,7,8,9,10,10,10,10]
@@ -34,6 +34,7 @@ def compare(u_score,c_score):
         return "You loose😂"
 
 def play_game():
+    print(logo)
     user_cards = []
     computer_cards = []
     is_game_over = False
